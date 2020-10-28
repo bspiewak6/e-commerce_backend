@@ -14,7 +14,7 @@ A manager at an internet retail company wants a back end for their e-commerce we
 1. JavaScript
 2. Node.js
 3. Express.js API
-4. Sequelize
+4. ORM Tool - Sequelize
 
 ## Screenshot
 ![Screenshot]()
