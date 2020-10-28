@@ -1,4 +1,5 @@
 # E-commerce Back End
+![License](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 
 ## Description
 A manager at an internet retail company wants a back end for their e-commerce website that uses the latest technologies. This will allow the company to compete with other e-commerce companies.
