@@ -10,8 +10,11 @@ router.get('/', (req, res) => {
     attributes: ['id', 'tag_name'],
     include: [
       {
-        model: Product,
-      }
+        model: Product
+      },
+      // {
+      //   model: ProductTag
+      // }
     ]
 })
     .then(tags => res.json(tags))
@@ -28,11 +31,13 @@ router.get('/:id', (req, res) => {
     where: {
         id: req.params.id
     },
-    attributes: ['id', 'tag_name'],
     include: [
       {
-        model: Product,
-      }
+        model: Product
+      },
+      // {
+      //   model: ProductTag
+      // },
     ]
 })
     .then(tags => {
@@ -40,7 +45,7 @@ router.get('/:id', (req, res) => {
             res.status(404).json({ message: 'No tags found with this id' });
             return;
         }
-        res.join(tags);
+        res.json(tags);
     })
     .catch(err => {
         console.log(err);
