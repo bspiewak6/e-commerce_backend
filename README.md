@@ -14,13 +14,18 @@ A manager at an internet retail company wants a back end for their e-commerce we
 1. JavaScript
 2. Node.js
 3. Express.js API
-4. ORM Tool - Sequelize
+4. Sequelize
+    * Object-Relational Mapping (ORM) tool was used to interact with the MySQL database
 
 ## Screenshot
 ![Screenshot]()
 
 ## Requirements
-1. 
+1. After being given the starter code, I added MySQL username and password to an environment variable file that allows me to connect to a database using Sequelize
+2. Create the development database from the schema at the command line and then seed the test data for the internet retail company
+3. Once that is completed, the CLI application can be invoked, the server is started and the Sequelize models are synced to the MySQL database
+4. Using Insomnia Core, the user can open API GET routes for categories, products, or tags and the data for each of these routes is displayed in a formatted JSON
+5. Lastly, the user can test API POST, PUT, and DELETE routes to successfully create, update, and delete data in the database
 
 
 ## Links
