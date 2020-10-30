@@ -12,11 +12,9 @@ router.get('/', (req, res) => {
     include: [
       {
         model: Category,
-        attributes: ['category_id'] //  === NOT SURE IF THIS IS RIGHT ATTRIBUTE ====
       },
       {
         model: Tag,
-        attributes: ['product_id'] //  === NOT SURE IF THIS IS RIGHT ATTRIBUTE ====
       }
     ]
 })
@@ -39,11 +37,10 @@ router.get('/:id', (req, res) => {
     include: [
       {
         model: Category, 
-        attributes: ['category_id'] //  === NOT SURE IF THIS IS RIGHT ATTRIBUTE ====
+        attributes: ['category_name']
       },
       {
         model: Tag,
-        attributes: ['product_id'] //  === NOT SURE IF THIS IS RIGHT ATTRIBUTE ====
       }
     ]
 })

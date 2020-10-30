@@ -88,12 +88,12 @@ router.delete('/:id', (req, res) => {
         id: req.params.id
     }
 })
-    .then(products => {
-        if (!products) {
+    .then(category => {
+        if (!category) {
             res.status(404).json({ message: 'No categories found with this id' });
             return;
         }
-        res.json(products);
+        res.json(category);
     })
     .catch(err => {
         console.log(err);
