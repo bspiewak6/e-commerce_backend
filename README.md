@@ -6,7 +6,7 @@ A manager at an internet retail company wants a back end for their e-commerce we
 
 ## Table of Contents
 * [Technologies](#technologies)
-* [Screenshot](#screenshot)
+* [Screenshots](#screenshots)
 * [Requirements](#requirements)
 * [Links](#links)
 
@@ -17,13 +17,14 @@ A manager at an internet retail company wants a back end for their e-commerce we
 4. Sequelize
     * Object-Relational Mapping (ORM) tool was used to interact with the MySQL database
 
-## Screenshot
-![Screenshot](./src/images/screenshot_cat.png)
-![Screenshot](./src/images/screenshot_tag.png)
-![Screenshot](./src/images/screenshot_C.png)
-![Screenshot](./src/images/screenshot_R.png)
-![Screenshot](./src/images/screenshot_U.png)
-![Screenshot](./src/images/screenshot_D.png)
+## Screenshots
+![Screenshots](./src/images/screenshot_cat.png)
+![Screenshots](./src/images/screenshot_tag.png)
+# CRUD Screenshots
+![Screenshots](./src/images/screenshot_C.png)
+![Screenshots](./src/images/screenshot_R.png)
+![Screenshots](./src/images/screenshot_U.png)
+![Screenshots](./src/images/screenshot_D.png)
 
 ## Requirements
 1. After being given the starter code, add MySQL username and password to an environment variable file that allows the user to connect to a database using Sequelize
@@ -38,5 +39,5 @@ A manager at an internet retail company wants a back end for their e-commerce we
 * [E-commerce Back End Repository](https://github.com/bspiewak6/e-commerce_backend)
 
 ## License
-![License](https://img.shields.io/badge/license-MIT%20License-blue.svg)
+![License](https://img.shields.io/badge/license-MIT%20License-blue.svg)  
 This app is licensed under the MIT license.
