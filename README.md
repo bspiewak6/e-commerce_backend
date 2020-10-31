@@ -21,7 +21,7 @@ A manager at an internet retail company wants a back end for their e-commerce we
 ![Screenshot]()
 
 ## Requirements
-1. After being given the starter code, I added MySQL username and password to an environment variable file that allows me to connect to a database using Sequelize
+1. After being given the starter code, add MySQL username and password to an environment variable file that allows the user to connect to a database using Sequelize
 2. Create the development database from the schema at the command line and then seed the test data for the internet retail company
 3. Once that is completed, the CLI application can be invoked, the server is started and the Sequelize models are synced to the MySQL database
 4. Using Insomnia Core, the user can open API GET routes for categories, products, or tags and the data for each of these routes is displayed in a formatted JSON
@@ -31,3 +31,7 @@ A manager at an internet retail company wants a back end for their e-commerce we
 ## Links
 * [E-commerce Back End Walkthrough Video]()
 * [E-commerce Back End Repository](https://github.com/bspiewak6/e-commerce_backend)
+
+## License
+![License](https://img.shields.io/badge/license-MIT%20License-blue.svg)
+This app is licensed under the MIT license.
