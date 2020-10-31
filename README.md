@@ -18,7 +18,12 @@ A manager at an internet retail company wants a back end for their e-commerce we
     * Object-Relational Mapping (ORM) tool was used to interact with the MySQL database
 
 ## Screenshot
-![Screenshot]()
+![Screenshot](./src/images/screenshot_cat.png)
+![Screenshot](./src/images/screenshot_tag.png)
+![Screenshot](./src/images/screenshot_C.png)
+![Screenshot](./src/images/screenshot_R.png)
+![Screenshot](./src/images/screenshot_U.png)
+![Screenshot](./src/images/screenshot_D.png)
 
 ## Requirements
 1. After being given the starter code, add MySQL username and password to an environment variable file that allows the user to connect to a database using Sequelize
@@ -29,7 +34,7 @@ A manager at an internet retail company wants a back end for their e-commerce we
 
 
 ## Links
-* [E-commerce Back End Walkthrough Video]()
+* [E-commerce Back End Walkthrough Video](https://drive.google.com/file/d/1h6v7Uxsdl-DN73fuqmgii8oYNg3JWUsR/view?usp=sharing)
 * [E-commerce Back End Repository](https://github.com/bspiewak6/e-commerce_backend)
 
 ## License
